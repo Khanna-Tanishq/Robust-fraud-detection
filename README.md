@@ -1,4 +1,4 @@
-```markdown
+
 # 🕵️‍♂️ Robust Fraud Detection Pipeline 📊
 
 Detecting financial fraud is an exercise in finding a needle in a haystack. In this dataset, legitimate transactions account for over 99% of the data. A standard model that simply predicts every transaction as legitimate would achieve near-perfect accuracy—while catching zero actual fraud. 
@@ -62,7 +62,5 @@ The app will automatically open in your default web browser. If it doesn't, navi
 ---
 
 *Developed by Tanishq Khanna*
-
-```
 
 ```
