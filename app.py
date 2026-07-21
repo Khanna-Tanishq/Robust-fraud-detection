@@ -8,8 +8,7 @@ st.set_page_config(page_title="Fraud Detection AI", page_icon="🕵️‍♂️"
 # 2. Load the Zero-Leakage Pipeline
 @st.cache_resource # This caches the model so it doesn't reload on every button click
 def load_model():
-    return joblib.load('fraud_model.pkl')
-
+    return joblib.load('Model/fraud_model.pkl')
 pipeline = load_model()
 
 # 3. Build the UI
